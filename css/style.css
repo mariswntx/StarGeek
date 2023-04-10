@@ -1,0 +1,83 @@
+body{
+    background: rgb(175,98,235);
+    background: linear-gradient(90deg, rgba(175,98,235,1) 8%, rgba(21,75,68,1) 100%);
+    
+}
+header > img {
+    width: 65px;
+    height: 60px;
+}
+.loginprin{
+    background-color: rgba(245, 245, 220, 0.34);
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+input{
+    height: 30px;
+    background-color: rgba(245, 245, 220, 0.559);
+    justify-content: center;
+    margin: 15px;
+}
+label{
+    text-align: center;
+    justify-content: center;
+    
+}
+.botao9{
+    background-color: violet;
+    padding: 15px;
+    text-decoration: none; /* tira o sublinhado do link*/
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    margin: 20px;
+   
+}
+LI{
+    list-style-type: none;
+}
+h4{
+    text-align: center;
+}
+.botaoclass{
+    margin-top: 30PX;
+}
+.addfilme{
+    background-color: rgba(245, 245, 220, 0.567);
+    justify-content: center;
+    height: 500px;
+    width: 600px;
+    padding: 10px;
+    
+}
+.catalogo{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+.letras{
+    text-align: center;
+}
+.index{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), linear-gradient(243.18deg, #1FF0D7 0%, #FF54F8 100%);
+}
+.pag-1{
+    width: 50%;
+    font-size: 30px;
+}
+.img-part1{
+    width: 600px;
+    
+}
+.part1{
+    display: flex;
+    margin: 20px;
+}
+hr{
+    border: 3px solid gray;
+}
