@@ -1,83 +1,363 @@
-body{
-    background: rgb(175,98,235);
-    background: linear-gradient(90deg, rgba(175,98,235,1) 8%, rgba(21,75,68,1) 100%);
-    
+body {
+    background: rgb(175, 98, 235);
+    background: linear-gradient(90deg, rgba(175, 98, 235, 1) 8%, rgba(21, 75, 68, 1) 100%);
+
 }
-header > img {
+
+header>img {
     width: 65px;
     height: 60px;
 }
-.loginprin{
+
+.loginprin {
     background-color: rgba(245, 245, 220, 0.34);
     width: 400px;
     height: 500px;
     align-items: center;
     margin: 0 auto;
     text-align: center;
-    
+
 }
-input{
+
+input {
     height: 30px;
     background-color: rgba(245, 245, 220, 0.559);
     justify-content: center;
     margin: 15px;
 }
-label{
+
+label {
     text-align: center;
     justify-content: center;
-    
+
 }
-.botao9{
+
+.botao9 {
     background-color: violet;
     padding: 15px;
-    text-decoration: none; /* tira o sublinhado do link*/
+    text-decoration: none;
+    /* tira o sublinhado do link*/
     color: rgb(0, 0, 0);
     border-radius: 8px;
     box-shadow: 2px 2px 5px black;
     margin: 20px;
-   
+
 }
-LI{
+
+LI {
     list-style-type: none;
 }
-h4{
+
+h4 {
     text-align: center;
 }
-.botaoclass{
+
+.botaoclass {
     margin-top: 30PX;
 }
-.addfilme{
+
+.addfilme {
     background-color: rgba(245, 245, 220, 0.567);
     justify-content: center;
     height: 500px;
     width: 600px;
     padding: 10px;
-    
+
 }
-.catalogo{
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-  justify-content: center;
+
+.catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.letras{
+
+.letras {
     text-align: center;
 }
-.index{
+
+.index {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), linear-gradient(243.18deg, #1FF0D7 0%, #FF54F8 100%);
 }
-.pag-1{
+
+.pag-1 {
     width: 50%;
     font-size: 30px;
 }
-.img-part1{
+
+.img-part1 {
     width: 600px;
-    
+
 }
-.part1{
+
+.part1 {
+    display: flex;
+    margin: 30px;
+}
+
+hr {
+    border: 3px solid gray;
+}
+
+.pag-2 {
+    width: 50%;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.pag-3 {
+    font-size: 30px;
+    margin-top: 50px;
+    padding-top: 100px;
+
+}
+
+.part2 {
     display: flex;
     margin: 20px;
 }
-hr{
-    border: 3px solid gray;
+
+.assistir {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+
 }
+
+.part4 {
+    display: flex;
+    justify-content: space-around
+}
+
+.onde {
+    margin: 20px;
+}
+
+.botao10 {
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #FF54F8;
+    border-radius: 10px;
+}
+
+.rodape-img {
+    width: 100px;
+    right: 100px;
+    align-items: center;
+}
+
+.informacao {
+    display: flex;
+    margin: 20px;
+}
+
+.linguagem {
+    background-color: #ff54f9ba;
+    border-radius: 10px;
+}
+
+footer {
+
+    width: 100%;
+    text-align: center;
+}
+
+.ajuda {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.pag-4 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pag-4 > img{
+    height: 60px;
+}
+.menu{
+    display:flex ;
+}
+.menu > li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.menu > li > a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+.body-prin{
+    background: none;
+    background-color: black;
+}
+
+.sintase{
+    margin-bottom: 100px;
+    
+}
+.capa-outer{
+    width: 50%;
+    
+}
+.capa-outer:hover{
+    content:url(../img/outer-banks-obx.gif);
+    transform: scale(1.1);
+    max-width: 700px;
+    margin-left: 50px;
+}
+.hbo{
+    padding: 20px;
+    margin-top: auto;
+    display: flex;
+    overflow-x: scroll;
+    cursor:pointer;
+    max-height: 180px;
+    
+}
+.series{
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.series > img{
+    transition: all 1s;
+}
+.hbo::-webkit-scrollbar{
+    display: none;
+}
+.grande{
+width: 300px;
+height: 195px;
+}
+.letra-hbo{
+    color: white;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.disney{
+    padding: 20px;
+    margin-top: auto;
+    display: flex;
+    overflow: scroll;
+}
+.disney::-webkit-scrollbar{
+    display: none;
+}
+
+.euphoria:hover{
+    content:url(../img/gifeuphoria.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.pixie:hover{
+    content:url(../img/gif-pixie.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.lilo:hover{
+    content:url(../img/lilo-and-stitch-.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.divertidamente:hover{
+    content:url(../img/gif-divertidamente.webp);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.up:hover{
+    content:url(../img/gif-up.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.carros:hover{
+    content:url(../img/gif-carros.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.enrolados:hover{
+    content:url(../img/gif-enrolados.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.penellope:hover{
+    content:url(../img/gif-penellope.webp);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.moana:hover{
+    content:url(../img/gif-moana.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.wall:hover{
+    content:url(../img/gif-walll\ e.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.espiao:hover{
+    content:url(../img/gif-espiao.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.peaky:hover{
+    content:url(../img/gifs-do-peaky-blinders-2.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.adam:hover{
+    content:url(../img/gif-projetodeadam.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.stranger:hover{
+    content:url(../img/gif-st2.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.esquadrao:hover{
+    content:url(../img/gif-esquadrao\ 6.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.anne:hover{
+    content:url(../img/gif-anne.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.enola:hover{
+    content:url(../img/gif-enola.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.casadepapel:hover{
+    content:url(../img/gifs-de-la-casa-de-papel-0.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+.alltalk:hover{
+    content:url(../img/gif-alltalk.gif);
+    transform: scale(1.1);
+    max-width: 290px;
+}
+
+
+
+
+
+
+
+
+
