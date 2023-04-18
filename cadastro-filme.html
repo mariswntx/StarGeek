@@ -19,31 +19,52 @@
             <p> Deixe aqui um novo filme ou serie que deseja assistir em nossa
                 plataforma.
             </p>
-        </div>
-        <div class="addfilme">
-            <ul>
-                <li><label>Nome do filme/serie: </label></li>
-                <li><input type="text"></li>
-                
-                <li><label>Descrição:</label></li>
-                <li><input type="text"></li>
-                
-                <li><label>Restrição de idade:</label></li>
-                <li><select name="Plataforma" required="required"></li>
+            </di>
+            <div class="addfilme">
+                <ul>
+                    <li><label>Nome do filme/serie: </label></li>
+                    <li><input type="text" placeholder="Insira o filme"></li>
 
-                    <li><option value=""> Restrição</option></li>
-                    <li><option value="Fundamental"> (L) Livre para todos os publicos</option></li>
-                    <li><option value="Médio"> Não recomendado para menores de 10 anos</option></li>
-                    <li><option value="Completo"> Não recomendado para menores de 12 anos</option></li>
-                    <li><option value="Superior"> Não recomendado para menores de 14 anos</option></li>
-                    <li><option value="Superior"> Não recomendado para menores de 16 anos</option></li>
-                    <li><option value="Superior"> Não recomendado para menores de 18 anos</option></li>
-                </select>
-                <div class="botaoclass">
-                    <a href="#" class="botao9">Login</a>
-                </div>
-            </ul>
-        </div>
+                    <li><label>Descrição:</label></li>
+                    <li><input type="text" placeholder="Descrição"></li>
+
+                    <li><label>Restrição de idade:</label></li>
+                    <li><select name="Plataforma" required="required" class="restricao"></li>
+
+                    <li>
+                        <option value=""> Restrição</option>
+                    </li>
+                    <li>
+                        <option value="Fundamental"> (L) Livre para todos os publicos</option>
+                    </li>
+                    <li>
+                        <option value="Médio"> Não recomendado para menores de 10 anos</option>
+                    </li>
+                    <li>
+                        <option value="Completo"> Não recomendado para menores de 12 anos</option>
+                    </li>
+                    <li>
+                        <option value="Superior"> Não recomendado para menores de 14 anos</option>
+                    </li>
+                    <li>
+                        <option value="Superior"> Não recomendado para menores de 16 anos</option>
+                    </li>
+                    <li>
+                        <option value="Superior"> Não recomendado para menores de 18 anos</option>
+                    </li>
+                    </select>
+                    <div class="botaoclass">
+                        <a href="/pagina-principal.html" class="botao9">Adicionar</a>
+
+                    </div>
+                    <div>
+                        <img src="/img/deadpool-poster.jpg" class="deadpool">
+                        <label class="selecionar">Selecionar uma imagem </label>
+                        <input type="file">
+                    </div>
+                </ul>
+            </div>
+
     </main>
 </body>
 
