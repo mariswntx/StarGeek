@@ -44,8 +44,11 @@ label {
     padding-left: 20px;
     padding-right: 20px;
 }
+.botao9:hover{
+    background-color: purple;
 
-LI {
+}
+li {
     list-style-type: none;
 }
 
