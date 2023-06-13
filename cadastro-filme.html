@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de FIlmes</title>
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="javascript/cadastro-filme.js"></script>
 </head>
 
 <body>
@@ -16,17 +17,27 @@
     <main class="catalogo">
         <div class="letras">
             <h1> Novo Catálogo</h1>
-            <p> Deixe aqui um novo filme ou serie que deseja assistir em nossa
-                plataforma.
-            </p>
+
             </di>
             <div class="addfilme">
+                <p> Deixe aqui um novo filme ou serie que deseja assistir em nossa
+                    plataforma.
+                </p>
+
                 <ul>
                     <li><label>Nome do filme/serie: </label></li>
-                    <li><input type="text" placeholder="Insira o filme"></li>
+                    <li><input type="text" placeholder="Insira o filme" id="nome"></li>
 
                     <li><label>Descrição:</label></li>
-                    <li><input type="text" placeholder="Descrição"></li>
+                    <li><input type="text" placeholder="Descrição" id="descricao"></li>
+
+                    <li><label>link da imagem: </label></li>
+                    <li><input type="text" id="imagem" placeholder="Insira o link" onkeyup="carregarImagem()">
+                    <br> <img src= "" id="img"></li>
+
+                    <li><label> Link do gif:</label></li>
+                    <li><input type="text" id="gif" placeholder="Insira o link" onkeyup="carregargif()">
+                    <br> <img src="" id="imggif"></li>
 
                     <li><label>Restrição de idade:</label></li>
                     <li><select name="Plataforma" required="required" class="restricao"></li>
@@ -54,17 +65,13 @@
                     </li>
                     </select>
                     <div class="botaoclass">
-                        <a href="pagina-principal.html" class="botao9">Adicionar</a>
-
-                    </div>
-                    <div>
-                        <img src="img/deadpool-poster.jpg" class="deadpool">
-                        <label class="selecionar">Selecionar uma imagem </label>
-                        <input type="file">
+                        <a href="#" class="botao9" onclick="gerar()">Adicionar</a>
                     </div>
                 </ul>
             </div>
-
+            <div>
+                <img src="" alt="" id="cadastroImagem">
+            </div>
     </main>
 </body>
 
